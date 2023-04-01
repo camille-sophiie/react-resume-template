@@ -97,8 +97,8 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
-  description: `I am passionate about cloud architectures and cats. Let's have coffee!`,
+/*   profileImageSrc: profilepic,
+ */  description: `I am passionate about cloud architectures and cats. Let's have coffee!`,
   aboutItems: [
     {label: 'Location', text: 'Zurich,  Switzerland', Icon: MapIcon},
     {label: 'Age', text: '28', Icon: CalendarIcon},
@@ -117,20 +117,20 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'French',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'German',
+        level: 8,
       },
       {
         name: 'Spanish',
-        level: 3,
+        level: 8,
       },
     ],
   },
-  {
+  /* {
     name: 'Frontend development',
     skills: [
       {
@@ -180,7 +180,7 @@ export const skills: SkillGroup[] = [
         level: 3,
       },
     ],
-  },
+  }, */
 ];
 
 /**
