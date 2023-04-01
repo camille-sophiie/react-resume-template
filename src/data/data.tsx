@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: "Camille's Resume",
+  description: "A Website hosted on AWS",
 };
 
 /**
@@ -69,27 +69,21 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Camille.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        I'm a Zurich based <strong className="text-stone-100">aspiring Cloud Solutions Architect</strong>, currently working
+        at <strong className="text-stone-100">AWS</strong> as a working student and graduating in September.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
-      text: 'Resume',
+      href: '',
+      text: "Let's connect!",
       primary: true,
-      Icon: DownloadIcon,
+      Icon: LinkedInIcon,
     },
 /*     {
       href: `#${SectionId.Contact}`,
@@ -312,7 +306,7 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'My mom',
-      text: 'Camille is fun to be around but usually d',
+      text: 'Camille is most times fun to be around',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     /* {
@@ -334,7 +328,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+/*   description: '', */
   items: [
     {
       type: ContactType.Email,
@@ -364,9 +358,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+/*   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'}, */
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+/*   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'}, */
 ];
